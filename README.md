@@ -6,3 +6,16 @@ Prof. : [Dr. John Lenon Cardoso Gardenghi](https://sigaa.unb.br/sigaa/public/doc
 ### Assembly MIPS
 
 Exercicios Feitos em Assembly MIPS no [MOJ](https://moj.naquadah.com.br/)
+
+Use o `spim` como simulador no Linux
+
+instalar:
+```bash
+sudo apt update
+sudo apt install spim -y
+```
+
+para executar o arquivo `file.asm`:
+```bash
+spim -f file.asm
+```
